@@ -15,7 +15,7 @@ app.use(express.static('public'));
 const db = mysql.createConnection({
   host: 'root@localhost',
   user: 'root', // change this to your MySQL username
-  password: 'mohit@9462165668', // change this to your MySQL password
+  password: '', // change this to your MySQL password
   database: 'user_management'
 });
 
